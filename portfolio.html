@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html"> About </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <div class="jumbotron text-center">
+        <h1>Portfolio</h1>
+    </div>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <ul class="navbar justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+        </ul>
     </nav>
 
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="text"> Portfolio </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card">
+                <div class="card portfolio">
                     <img src="images/isaiah.jpg" class="card-img-top" alt="football">
                     <div class="card-body">
                         <p class="card-text text">Neon Glow</p>
@@ -41,7 +42,7 @@
             </div>
 
             <div class="col">
-                <div class="card">
+                <div class="card portfolio">
                     <img src="images/berry.jpg" class="card-img-top" alt="football">
                     <div class="card-body">
                         <p class="card-text text">Gaussian Blur w/ Color Dodge</p>
@@ -51,7 +52,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="card">
+                <div class="card portfolio">
                     <img src="images/coachk.jpg" class="card-img-top" alt="football coach">
                     <div class="card-body">
                         <p class="card-text text">Smoke Effect</p>
@@ -60,9 +61,8 @@
             </div>
 
             <div class="col">
-                <div class="card">
-                    <img src="images/bruhz.jpg" class="card-img-top"
-                        alt="fraternity brothers">
+                <div class="card portfolio">
+                    <img src="images/bruhz.jpg" class="card-img-top" alt="fraternity brothers">
                     <div class="card-body">
                         <p class="card-text text">Oil Paint Effect </p>
                     </div>
@@ -71,9 +71,8 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="card">
-                    <img src="images/banner.jpg" class="card-img-top"
-                        alt="photo of football player">
+                <div class="card portfolio">
+                    <img src="images/banner.jpg" class="card-img-top" alt="photo of football player">
                     <div class="card-body">
                         <p class="card-text text">Football</p>
                     </div>
@@ -82,9 +81,8 @@
 
             <div class="col">
 
-                <div class="card">
-                    <img src="images/jeffjakes.jpg" class="card-img-top"
-                        alt="cartoon graphic">
+                <div class="card portfolio">
+                    <img src="images/jeffjakes.jpg" class="card-img-top" alt="cartoon graphic">
                     <div class="card-body">
                         <p class="card-text text">Adobe Illustrator</p>
                     </div>
@@ -93,8 +91,6 @@
         </div>
 
     </div>
-
-
 </body>
 
 </html>
